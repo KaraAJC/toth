@@ -1,0 +1,43 @@
+<!-- Outdated, but working, version:
+<html>
+<FRAMESET cols="50%,50%">
+    <FRAME src="https://web-beta.archive.org/web/20170119230156/http://whitehouse.gov">
+    <FRAME src="https://web-beta.archive.org/web/20170120205436/http://whitehouse.gov">
+  </FRAMESET>
+</html> -->
+
+<html>
+<head>
+  <title>Frames Test</title>
+</head>
+<style>
+  body {
+    text-align: center;
+    background: #540452;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+  }
+  h2 {
+    font-weight: 100;
+  }
+  .container {
+    margin: 0 auto;
+  }
+
+  iframe {
+    width: 48%;
+    height: 100%;
+  }
+
+</style>
+<body>
+  <h1>A Story of Two White Houses</h1>
+  <div class="container">
+    <h2>Before & After</h2>
+    <iframe allow-scripts id="before" src="https://web-beta.archive.org/web/20170119230156/http://whitehouse.gov"></iframe>
+    <iframe allow-scripts id="after" src="https://web-beta.archive.org/web/20170120205436/http://whitehouse.gov"></iframe>
+  </div>
+</body>
+</html>
