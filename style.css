@@ -1,0 +1,35 @@
+.karaBody {
+  text-align: center;
+  background: #540452;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.karaContainer {
+  margin: 0 auto;
+  background: white;
+}
+
+h2 {
+  font-weight: 100;
+  color: #540452;
+}
+
+.siteFrame {
+  width: 45%;
+  height: 100%;
+}
+
+a {
+  color:#936eb5;
+}
+
+a:hover {
+  color: #BADA55;
+}
+
+footer img {
+    height: 22px;
+}
