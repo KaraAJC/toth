@@ -12,9 +12,27 @@
   background: white;
 }
 
+.heading {
+  padding: 10px;
+}
+
 h2 {
+  font-size: 30px;
   font-weight: 100;
   color: #540452;
+}
+
+button {
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 30px;
+  color: white;
+  background: #936eb5;
+}
+
+button:hover, button.active {
+    background: #b2d24f;
 }
 
 .siteFrame {
