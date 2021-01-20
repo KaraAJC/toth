@@ -7,9 +7,9 @@ const dayZeroBtn = document.querySelector('#dayZeroBtn');
 const dDayBtn = document.querySelector('#dDayBtn');
 const obamaBtn = document.querySelector('#obamaBtn');
 
-const dDayLink = 'https://web-beta.archive.org/web/20170119230156/http://whitehouse.gov'
-const zeroLink = 'https://web-beta.archive.org/web/20090120204553/http://www.whitehouse.gov/'
-const trumpLink = 'https://web-beta.archive.org/web/20170120205436/http://whitehouse.gov'
+const dDayLink = 'https://web.archive.org/web/20170119230156/http://whitehouse.gov'
+const zeroLink = 'https://web.archive.org/web/20090120204553/http://www.whitehouse.gov/'
+const trumpLink = 'https://web.archive.org/web/20170120205436/http://whitehouse.gov'
 
 function getDayZero(e) {
   console.log('getting day Zero...')
